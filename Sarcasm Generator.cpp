@@ -58,15 +58,7 @@ int main()
    	    {
    	        st[i] = tolower(st[i]);
    	    }
-   	    
-   	    if (st[i] == 'I')
-   	    {
-   	        st[i] = 'i';
-   	    }
-   	    if (st[i] == 'l')
-   	    {
-   	        st[i] = 'L';
-   	    }
+		
    	}
    	
    	for (int i = 0; i < file_string.length(); i += 1)
